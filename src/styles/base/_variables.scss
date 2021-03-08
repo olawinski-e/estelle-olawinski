@@ -1,0 +1,21 @@
+// Defualt font-size for the application
+$defaultfontsize: 16px;
+// Browser default font size in pixels.
+// Used to convert pixels to rem
+$browser-context: 16;
+
+// Breakpoints
+// Used at base/_breakpoints.scss
+// $mobile: 320;
+$mobile: 480;
+$tablet: 768; // need to be 712 instead 768 because of samsung s4 tablet
+$laptop: 992;
+$desktop: 1200;
+$bigscreen: 1600;
+// Usage: $unit (px, em, rem etc). Default unit is pixels.
+$unit: px;
+
+// Content containers
+$tabletContainer: 480;
+$laptopContainer: 960;
+$desktopContainer: 1140;
